@@ -1,7 +1,6 @@
 /* ============================================================
    OPEN DATABASE
 ============================================================ */
-let db = null;
 
 document.addEventListener("DOMContentLoaded", () => {
     openDB().then(() => {
